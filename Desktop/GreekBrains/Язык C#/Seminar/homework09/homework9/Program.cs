@@ -29,7 +29,6 @@ Console.WriteLine("Введите конец числового промежут
 int m = Convert.ToInt32(Console.ReadLine());
 Console.Write(SumElement (n,m)); */
 
-
 /* Task 3. Напишите программу вычисления функции Аккермана с помощью рекурсии. 
 Даны два неотрицательных числа m и n.
 m = 2, n = 3 -> A(m,n) = 9
@@ -41,7 +40,6 @@ int Akerman ( int m, int n)
     if (n == 0) return Akerman(m - 1, 1);
     else return Akerman(m - 1, Akerman(m, n - 1));
 }
-
 Console.WriteLine("Введите первый аргумент функции ");
 int m = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второй аргумент функции ");
